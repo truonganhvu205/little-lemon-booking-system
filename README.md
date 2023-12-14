@@ -41,3 +41,22 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py runserver
 ```
+
+<table align='center'>
+  <tr align='center'>
+    <td>Before Booking</td>
+    <td>After Booking</td>
+    <td>All Reservations</td>
+  </tr>
+  <tr align='center'>
+    <td>
+      <img src='https://github.com/truonganhvu205/little-lemon-booking-system/blob/main/little-lemon-booking-system-django-truong-anh-vu-12-15-2023.png/little-lemon-booking-system-django-truong-anh-vu-12-15-2023-pic-1.png' />
+    </td>
+    <td>
+      <img src='https://github.com/truonganhvu205/little-lemon-booking-system/blob/main/little-lemon-booking-system-django-truong-anh-vu-12-15-2023.png/little-lemon-booking-system-django-truong-anh-vu-12-15-2023-pic-2.png' />
+    </td>
+    <td>
+      <img src='https://github.com/truonganhvu205/little-lemon-booking-system/blob/main/little-lemon-booking-system-django-truong-anh-vu-12-15-2023.png/little-lemon-booking-system-django-truong-anh-vu-12-15-2023-pic-3.png' />
+    </td>
+  </tr>
+</table>
