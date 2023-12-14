@@ -27,7 +27,7 @@ pipenv install django
 
 ## Connect to MySQL
 ```bash
-mysql -u root -p
+sudo mysql -u root -p OR mysql -u root -p
 CREATE DATABASE reservations;
 CREATE USER 'admindjango'@'localhost' IDENTIFIED BY 'employee@123!';
 GRANT ALL ON *.* TO 'admindjango'@'localhost';
