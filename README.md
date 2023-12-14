@@ -6,7 +6,7 @@ cd littlelemonAPI
 
 git init
 
-git clone https://github.com/truonganhvu205/little-lemon-API.git
+git clone https://github.com/truonganhvu205/little-lemon-booking-system.git
 ```
 
 ## Install pipenv
