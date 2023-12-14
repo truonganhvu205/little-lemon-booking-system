@@ -1,8 +1,8 @@
 # Clone project
 ```bash
-mkdir littlelemonAPI
+mkdir little-lemon-booking-system
 
-cd littlelemonAPI
+cd little-lemon-booking-system
 
 git init
 
