@@ -1,2 +1,7 @@
-admindjango
-employee@123!
+Django
+- admindjango
+- employee@123!
+
+MySQL
+- admindjango
+- employee@123!
