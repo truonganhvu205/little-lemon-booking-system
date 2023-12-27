@@ -16,9 +16,10 @@ pipenv --python 3.10
 pipenv shell
 ```
 
-## Install Django
+## Install Django & Frameworks
 ```bash
 pipenv install django
+pipenv install mysqlclient
 ```
 
 ## Connect to MySQL
