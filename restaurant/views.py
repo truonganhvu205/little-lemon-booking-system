@@ -17,10 +17,10 @@ def about(request):
     return render(request, 'about.html')
 
 def reservations(request):
-    date = request.GET.get('date',datetime.today().date())
+    date = request.GET.get('date', datetime.today().date())
     bookings = Booking.objects.all()
     booking_json = serializers.serialize('json', bookings)
-    return render(request, 'bookings.html',{"bookings":booking_json})
+    return render(request, 'bookings.html', {"bookings": booking_json})
 
 def book(request):
     form = BookingForm()
@@ -28,7 +28,7 @@ def book(request):
         form = BookingForm(request.POST)
         if form.is_valid():
             form.save()
-    context = {'form':form}
+    context = {'form': form}
     return render(request, 'book.html', context)
 
 def menu(request):
