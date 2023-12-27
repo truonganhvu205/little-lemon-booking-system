@@ -1,12 +1,8 @@
 # Clone project
 ```bash
-mkdir little-lemon-booking-system
-
-cd little-lemon-booking-system
-
 git init
-
 git clone https://github.com/truonganhvu205/little-lemon-booking-system.git
+cd little-lemon-booking-system
 ```
 
 ## Install pipenv
@@ -28,10 +24,10 @@ pipenv install django
 ## Connect to MySQL
 ```bash
 mysql -u root -p
-CREATE DATABASE reservations;
-CREATE USER 'admindjango'@'localhost' IDENTIFIED BY 'employee@123!';
-GRANT ALL ON *.* TO 'admindjango'@'localhost';
-FLUSH PRIVILEGES;
+create database reservations;
+create user 'admindjango'@'localhost' identified by 'employee@123!';
+grant all on *.* to 'admindjango'@'localhost';
+flush privileges;
 exit
 ```
 
