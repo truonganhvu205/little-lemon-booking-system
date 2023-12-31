@@ -1,8 +1,8 @@
 # Clone project
 ```bash
 git init
-git clone https://github.com/truonganhvu205/little-lemon-booking-system.git
-cd little-lemon-booking-system
+git clone https://github.com/truonganhvu205/little-lemon-booking-system-django.git
+cd little-lemon-booking-system-django
 ```
 
 ## Install pipenv
@@ -16,9 +16,12 @@ pipenv --python 3.10
 pipenv shell
 ```
 
-## Install Django & Frameworks
+## Install Django & frameworks
 ```bash
+# Django
 pipenv install django
+
+# Frameworks
 pipenv install mysqlclient
 ```
 
@@ -26,9 +29,11 @@ pipenv install mysqlclient
 ```bash
 mysql -u root -p
 create database reservations;
+
 create user 'admindjango'@'localhost' identified by 'employee@123!';
 grant all on *.* to 'admindjango'@'localhost';
 flush privileges;
+
 exit
 ```
 
@@ -39,6 +44,23 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
+## Account required
+```bash
+Django
+  admindjango
+  employee@123!
+
+MySQL
+  admindjango
+  employee@123!
+```
+
+## Deactivate virtual environment
+```bash
+exit
+```
+
+# Preview project
 <table align='center'>
   <tr align='center'>
     <td>Before Booking</td>
@@ -47,13 +69,13 @@ python3 manage.py runserver
   </tr>
   <tr align='center'>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-booking-system/blob/main/little-lemon-booking-system-django-truong-anh-vu-12-15-2023.png/little-lemon-booking-system-django-truong-anh-vu-12-15-2023-pic-1.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-booking-system-django/blob/main/little-lemon-booking-system-django/little-lemon-booking-system-django-pic-1.png' />
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-booking-system/blob/main/little-lemon-booking-system-django-truong-anh-vu-12-15-2023.png/little-lemon-booking-system-django-truong-anh-vu-12-15-2023-pic-2.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-booking-system-django/blob/main/little-lemon-booking-system-django/little-lemon-booking-system-django-pic-2.png' />
     </td>
     <td>
-      <img src='https://github.com/truonganhvu205/little-lemon-booking-system/blob/main/little-lemon-booking-system-django-truong-anh-vu-12-15-2023.png/little-lemon-booking-system-django-truong-anh-vu-12-15-2023-pic-3.png' />
+      <img src='https://github.com/truonganhvu205/little-lemon-booking-system-django/blob/main/little-lemon-booking-system-django/little-lemon-booking-system-django-pic-3.png' />
     </td>
   </tr>
 </table>
